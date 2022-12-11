@@ -1,8 +1,8 @@
 import React from "react";
-const Portfolio = () => {
+const Projects = () => {
     return(
         <h1>Welcome to my portfolio!</h1>
     )
 }
 
-export default Portfolio;
+export default Projects;
