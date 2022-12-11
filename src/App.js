@@ -1,13 +1,22 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // UPDATED
+import NavBar from "./components/NavBar";
+import Portfolio from "./components/PortfolioHome";
 
-function App() {
-  return (
-    <div>
-      <h1>
-        Welcome to my portfolio site!
-      </h1>
-    </div>
-  );
+const App = () => {
+
+return (
+  <Router>
+    <NavBar />
+    <Routes>
+      <Route path="/" element={<Portfolio />} />
+      <Route path="/about" element={< About />} />
+      <Route path="/contact" element={< Contact />} />
+      <Route path="/projects" element={< Projects />} />
+    </Routes>
+  </Router>
+);
 }
+
 
 export default App;
