@@ -5,9 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(129, 157, 180);
-    color: black
+    background: linear-gradient(to right, #5f92bc, rgb(253, 254, 213));
+    color: black;
+    animation: animate 20s linear infinite;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
