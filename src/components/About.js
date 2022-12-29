@@ -1,15 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import { Paragraph } from "./StyledComponents.js";
 const About = () => {
     return(
-        <Title>Jamie McGlone</Title>
+        <>
+        <Paragraph>
+            Jamie McGlone is a software developer based in Edinburgh who is currently studying at CodeClan.
+        </Paragraph>
+        </>
     )
 }
 
 const Title = styled.h1`
     text-align: center;
     font-family: "futura";
-    background-color: aliceblue;
 `
 
 export default About;

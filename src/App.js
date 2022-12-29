@@ -5,19 +5,21 @@ import Portfolio from "./components/PortfolioHome";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import PortfolioContainer from "./containers/PortfolioContainer";
 
 const App = () => {
 
 return (
-  <Router>
-    <NavBar />
-    <Routes>
-      <Route path="/" element={<Portfolio />} />
-      <Route path="/about" element={< About />} />
-      <Route path="/contact" element={< Contact />} />
-      <Route path="/projects" element={< Projects />} />
-    </Routes>
-  </Router>
+  <PortfolioContainer /> 
+  // <Router>
+  //   <NavBar />
+  //   <Routes>
+  //     <Route path="/" element={<Portfolio />} />
+  //     <Route path="/about" element={< About />} />
+  //     <Route path="/contact" element={< Contact />} />
+  //     <Route path="/projects" element={< Projects />} />
+  //   </Routes>
+  // </Router>
 );
 }
 

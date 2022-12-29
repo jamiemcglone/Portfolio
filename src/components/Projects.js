@@ -1,8 +1,11 @@
 import React from "react";
+import { Paragraph } from "./StyledComponents.js";
+
 const Projects = () => {
     return(
-        <h1>Welcome to my portfolio!</h1>
+        <Paragraph>See some of my projects below!</Paragraph>
     )
 }
+
 
 export default Projects;

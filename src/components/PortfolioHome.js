@@ -9,7 +9,7 @@ const Portfolio = () => {
 const Title = styled.h1`
     text-align: center;
     font-family: "futura";
-    background-color: aliceblue;
+    color: white;
 `
 
 export default Portfolio;
