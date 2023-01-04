@@ -2,6 +2,7 @@ import Portfolio from "../components/PortfolioHome";
 import About from "../components/About";
 import "./PortfolioContainer.css"
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 const PortfolioContainer = () => {
 
@@ -10,6 +11,7 @@ const PortfolioContainer = () => {
             <Portfolio />
             <About />
             <Projects />
+            <Contact />
         </>
     )
 }

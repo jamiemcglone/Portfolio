@@ -1,15 +1,11 @@
 import React from "react";
-import styled from "styled-components";
+import { Paragraph } from "./StyledComponents";
+
 const Contact = () => {
     return(
-        <Title>Jamie McGlone</Title>
+        <Paragraph>Email: Jamie.mcglone21@btinternet.com</Paragraph>
     )
 }
 
-const Title = styled.h1`
-    text-align: center;
-    font-family: "futura";
-    background-color: aliceblue;
-`
 
 export default Contact;

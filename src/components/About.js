@@ -5,7 +5,7 @@ const About = () => {
     return(
         <>
         <Paragraph>
-            Jamie McGlone is a software developer based in Edinburgh who is currently studying at CodeClan.
+            Jamie McGlone is an ambitious and hardworking software developer based in Edinburgh, who is currently studying at CodeClan.
         </Paragraph>
         </>
     )
