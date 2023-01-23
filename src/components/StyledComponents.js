@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Paragraph = styled.p`
 text-align: center;
-color: black;
+color: blanchedalmond;
 font-family: 'futura', sans-serif;
 font-size: 1.5rem;
 
@@ -10,7 +10,7 @@ font-size: 1.5rem;
 
 export const ProjectsListItem = styled.ul`
     text-align: center;
-    color: black;
+    color: blanchedalmond;
     font-family: 'futura', sans-serif;
     font-size: 1.2rem;
     list-style: none;
