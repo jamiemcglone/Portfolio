@@ -3,7 +3,7 @@ import { Paragraph } from "./StyledComponents";
 
 const Contact = () => {
     return(
-        <Paragraph>Email: Jamie.mcglone21@btinternet.com</Paragraph>
+        <Paragraph>Email: jamie.mcglone@outlook.com</Paragraph>
     )
 }
 
