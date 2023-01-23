@@ -14,9 +14,9 @@ body {
       /* -webkit-animation: AnimationName 75s ease infinite;
       -moz-animation: AnimationName 90s ease infinite;
       animation: AnimationName 90s ease infinite; */
-      background-color: #000000;
-      opacity: 1;
-      background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 34px ), repeating-linear-gradient( #1c1c1c55, #1c1c1c );
+     background-color: #000000;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 34px ), repeating-linear-gradient( #1c1c1c55, #5C6B73 );
 }
 
 
