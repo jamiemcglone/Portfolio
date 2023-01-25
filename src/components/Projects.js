@@ -1,5 +1,5 @@
 import React from "react";
-import { Paragraph, ProjectsListItem, ProjectsListContainer } from "./StyledComponents.js";
+import { Paragraph, ProjectsListItem, ProjectsListContainer, ProjectsLinkStyle, ProjectsTitle } from "./StyledComponents.js";
 
 const Projects = () => {
     const allProjects = [
@@ -22,19 +22,21 @@ const Projects = () => {
 
     const ProjectList = allProjects.map((project) => {
             return(
-                <ProjectsListItem>
-                    <p>Title: {project.title}</p>
-                    <p>Technologies: {project.type}</p>
-                    <p><a href={project.url} target="_blank">See more here!</a></p>
+                <ProjectsLinkStyle href={project.url} target="_blank">
+                    <ProjectsListItem>
+                        <p>Title: {project.title}</p>
+                        <p>Technologies: {project.type}</p>
+                        <p>Click to find out more!</p>
+                    </ProjectsListItem>
+                </ProjectsLinkStyle>
 
-                </ProjectsListItem>
             )
         })
 
 
     return(
         <>
-        <Paragraph>See some of my projects below!</Paragraph>
+        <ProjectsTitle>Projects</ProjectsTitle>
         <ProjectsListContainer>
                 {ProjectList}
         </ProjectsListContainer>

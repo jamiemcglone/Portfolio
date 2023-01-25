@@ -5,6 +5,7 @@ import { Paragraph } from "./StyledComponents.js";
 const About = () => {
     return(
         <>
+        <Paragraph>Hi, I am Jamie McGlone.</Paragraph>
         <Paragraph>
             I am an ambitious and creative software developer based in Edinburgh, who is currently studying at CodeClan.
         </Paragraph>
