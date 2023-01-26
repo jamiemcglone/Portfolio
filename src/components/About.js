@@ -5,9 +5,9 @@ import { Paragraph, Heading } from "./StyledComponents.js";
 const About = () => {
     return(
         <>
-        <Heading>Hi, I'm Jamie McGlone.</Heading>
+        <Heading>Hi, I'm Jamie McGlone</Heading>
         <Paragraph>
-            I am an ambitious and creative software developer based in Edinburgh, who is currently studying at CodeClan.
+            I am an ambitious and creative software developer based in Edinburgh, who is currently studying at CodeClan
         </Paragraph>
         </>
     )

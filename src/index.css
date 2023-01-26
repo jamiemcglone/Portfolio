@@ -14,7 +14,7 @@ body {
       animation: AnimationName 90s ease infinite; */
      background-color: rgb(0, 0, 0);
 opacity: 1;
-background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #000000 34px ), repeating-linear-gradient( #11111155, #0d0d0d );
+background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #000000 34px ), repeating-linear-gradient( #1a191955, #0d0d0d );
 /* "./../public/asfalt-light.png" */
 }
 
