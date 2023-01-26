@@ -6,6 +6,8 @@ text-align: center;
 color: white;
 font-family: "Open Sans", sans-serif;
 font-size: 1.5rem;
+margin-top: 3.5rem;
+margin-bottom: 3.5rem;
 
 `
 
@@ -38,6 +40,8 @@ export const ProjectsListContainer = styled.div`
     flex-direction: column;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
 `
 
 export const ProjectsLinkStyle = styled.a`
@@ -50,28 +54,35 @@ export const Heading = styled.h1`
     font-family: "Open Sans Bold", Roboto, sans-serif;
     color: white;
     text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     `
 
-export const LanguagesAndSkillsList = styled.ul`
+export const LanguagesAndSkillsList = styled.div`
     color: white;
-    text-align: center;
     display: flex;
     justify-content: center;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    @media (max-width: 500px) {
+        width: 25rem;
+    }
 `
 
-export const LanguageAndSkillItem = styled.li`
+export const LanguageAndSkillItem = styled.div`
     color: white;
     list-style: none;
     font-size: 1.5rem;
     text-align: center;
-    padding: 5px;
+    padding: .5rem;
 `
 
 export const SkillGroup = styled.div`
     flex-direction: row;
     justify-content: center;
-    margin: 10px;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
 `
 
 export const IconsFooter = styled.footer`
@@ -85,6 +96,8 @@ export const TheFooter = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     `
 
 export const LinkWord = styled.a`
@@ -93,5 +106,8 @@ export const LinkWord = styled.a`
     :hover {
         font-size: 1.3rem;
         text-decoration: underline;
+        border: 3px solid white;
+        border-radius: 10px;
+        box-shadow: 1px 2.5px;
     }
     `
