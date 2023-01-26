@@ -1,5 +1,5 @@
 import React from "react";
-import { Paragraph, ProjectsListItem, ProjectsListContainer, ProjectsLinkStyle, ProjectsTitle } from "./StyledComponents.js";
+import { Paragraph, ProjectsListItem, ProjectsListContainer, ProjectsLinkStyle, Heading } from "./StyledComponents.js";
 
 const Projects = () => {
     const allProjects = [
@@ -36,7 +36,7 @@ const Projects = () => {
 
     return(
         <>
-        <ProjectsTitle>Projects</ProjectsTitle>
+        <Heading>Projects</Heading>
         <ProjectsListContainer>
                 {ProjectList}
         </ProjectsListContainer>

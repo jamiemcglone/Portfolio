@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { Paragraph } from "./StyledComponents.js";
+import { Paragraph, Heading } from "./StyledComponents.js";
 
 const About = () => {
     return(
         <>
-        <Paragraph>Hi, I am Jamie McGlone.</Paragraph>
+        <Heading>Hi, I'm Jamie McGlone.</Heading>
         <Paragraph>
             I am an ambitious and creative software developer based in Edinburgh, who is currently studying at CodeClan.
         </Paragraph>
