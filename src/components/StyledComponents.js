@@ -66,6 +66,7 @@ export const LanguagesAndSkillsList = styled.div`
     margin-bottom: 3.5rem;
     @media (max-width: 500px) {
         width: 25rem;
+        flex-direction: column;
     }
 `
 
@@ -83,6 +84,10 @@ export const SkillGroup = styled.div`
     padding: 10px;
     margin-top: 3.5rem;
     margin-bottom: 3.5rem;
+    @media (max-width: 500px) {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
 `
 
 export const IconsFooter = styled.footer`
